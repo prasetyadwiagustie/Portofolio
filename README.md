@@ -1,10 +1,5 @@
 # Portfolio Template - HTML
 
-![Project Size](https://img.shields.io/github/repo-size/CommunityPro/portfolio-html?color=green&label=project%20size)
-[![Issues](https://img.shields.io/github/issues-raw/Communitypro/portfolio-html?color=green)](https://github.com/CommunityPro/portfolio-html/issues?q=is%3Aopen+is%3Aissue)
-[![Good First Issue](https://img.shields.io/github/labels/CommunityPro/portfolio-html/good%20first%20issue)](https://github.com/CommunityPro/portfolio-html/labels/good%20first%20issue)
-[![Help Wanted](https://img.shields.io/github/labels/CommunityPro/portfolio-html/help%20wanted)](https://github.com/CommunityPro/portfolio-html/labels/help%20wanted)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/d831b80b-40d4-473a-b552-13055a16a6da/deploy-status)](https://app.netlify.com/sites/cpro-portfolio-html/deploys)
 
 Template portfolio gratis untuk komunitas dan kontributor. Jika ingin menggunakannya, silakan baca [persyaratan](https://github.com/prasetyadwiagustie/Portofolio/blob/main/REQUIREMENTS.md).
 
