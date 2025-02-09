@@ -21,9 +21,10 @@ jobs:
         uses: actions/configure-pages@v3
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2  # Gunakan v2, bukan v4
+        uses: actions/upload-artifact@v4  # Ganti ke v4
         with:
-          path: ./src  # Ganti dengan folder yang berisi website
+          name: github-pages
+          path: ./src  # Sesuaikan dengan folder yang berisi website
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v2
