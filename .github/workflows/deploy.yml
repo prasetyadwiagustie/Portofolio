@@ -6,7 +6,7 @@ on:
       - main  # Sesuaikan dengan branch utama repositori
 
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
 
@@ -21,10 +21,9 @@ jobs:
         uses: actions/configure-pages@v3
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v2  # Gunakan v2, bukan v4
         with:
-          path: ./src  # Ganti dengan folder yang ingin digunakan
+          path: ./src  # Ganti dengan folder yang berisi website
 
       - name: Deploy to GitHub Pages
-        id: deployment
         uses: actions/deploy-pages@v2
