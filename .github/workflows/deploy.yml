@@ -20,11 +20,16 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v3
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2  # Menggunakan upload-pages-artifact
-        with:
-          name: github-pages  # Pastikan nama ini cocok
-          path: ./src  # Sesuaikan dengan lokasi file website
+      - name: Build project
+        run: |
+          mkdir output
+          cp -r src/* output/
 
-      - name: Deploy to GitHub Pages
+      - name: Upload artifact (Gunakan v4)
+        uses: actions/upload-artifact@v4
+        with:
+          name: github-pages
+          path: output  # Pastikan sesuai dengan folder hasil build
+
+      - name: Deploy to GitHub Pages (Gunakan v2)
         uses: actions/deploy-pages@v2
