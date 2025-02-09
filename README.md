@@ -41,7 +41,7 @@ Gunakan `style.css` untuk menyesuaikan tampilan. Struktur utama menggunakan grid
 ## Contoh Penggunaan
 Lihat contoh portfolio yang sudah dikustomisasi:
 
-[![Example](https://user-images.githubusercontent.com/62628408/150613011-b78a7f5a-0af1-4312-aab0-0022e7258693.png)](https://cpro-portfolio-html.netlify.app/)
+[![Example](https://github.com/prasetyadwiagustie/Portofolio/blob/main/img/2-9-2025%2012-48-55%20PM.png?raw=true)](https://cpro-portfolio-html.netlify.app/)
 
 ## Dukungan
 Jika Anda menyukai proyek ini, silakan beri ⭐ dan dukung pengembang melalui [Buy Me a Coffee](https://buymeacoffee.com/prasetyadwiagustie).
