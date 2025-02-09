@@ -1,4 +1,4 @@
-# Portfolio Template - HTML
+# Portfolio - HTML
 
 
 Template portfolio gratis untuk komunitas dan kontributor. Jika ingin menggunakannya, silakan baca [persyaratan](https://github.com/prasetyadwiagustie/Portofolio/blob/main/REQUIREMENTS.md).
