@@ -3,7 +3,7 @@ name: Deploy GitHub Pages
 on:
   push:
     branches:
-      - main  # Sesuaikan dengan branch utama repositori
+      - main  # Sesuaikan dengan branch utama
 
 permissions:
   contents: read
@@ -23,13 +23,13 @@ jobs:
       - name: Build project
         run: |
           mkdir output
-          cp -r src/* output/
+          cp -r src/* output/  # Sesuaikan dengan folder hasil build
 
-      - name: Upload artifact (Gunakan v4)
-        uses: actions/upload-artifact@v4
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v2  # Sesuai versi terbaru
         with:
-          name: github-pages
-          path: output  # Pastikan sesuai dengan folder hasil build
+          name: github-pages  # Nama artifact harus konsisten
+          path: output        # Path harus sesuai dengan hasil build
 
-      - name: Deploy to GitHub Pages (Gunakan v2)
+      - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v2
