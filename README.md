@@ -6,10 +6,8 @@
 [![Help Wanted](https://img.shields.io/github/labels/CommunityPro/portfolio-html/help%20wanted)](https://github.com/CommunityPro/portfolio-html/labels/help%20wanted)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/d831b80b-40d4-473a-b552-13055a16a6da/deploy-status)](https://app.netlify.com/sites/cpro-portfolio-html/deploys)
 
-Template portfolio gratis untuk komunitas dan kontributor. Jika ingin menggunakannya, silakan baca [persyaratan](https://github.com/CommunityPro/portfolio-html/blob/main/REQUIREMENTS.md).
+Template portfolio gratis untuk komunitas dan kontributor. Jika ingin menggunakannya, silakan baca [persyaratan](https://github.com/prasetyadwiagustie/Portofolio/blob/main/REQUIREMENTS.md).
 
-## Cara Kontribusi
-Pastikan semua PR dan kontribusi sesuai dengan [panduan kontribusi](https://github.com/CommunityPro/portfolio-html/blob/main/CONTRIBUTING.md). Harap buat issue terlebih dahulu sebelum melakukan perubahan signifikan.
 
 ## Struktur Folder
 ```bash
@@ -46,4 +44,4 @@ Lihat contoh portfolio yang sudah dikustomisasi:
 [![Example](https://user-images.githubusercontent.com/62628408/150613011-b78a7f5a-0af1-4312-aab0-0022e7258693.png)](https://cpro-portfolio-html.netlify.app/)
 
 ## Dukungan
-Jika Anda menyukai proyek ini, silakan beri ⭐ dan dukung pengembang melalui [Buy Me a Coffee](https://www.buymeacoffee.com/evavic44).
+Jika Anda menyukai proyek ini, silakan beri ⭐ dan dukung pengembang melalui [Buy Me a Coffee](https://buymeacoffee.com/prasetyadwiagustie).
